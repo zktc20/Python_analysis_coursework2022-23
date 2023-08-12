@@ -30,6 +30,7 @@ intercept=(sumy-(slope_m*sumx))/N
 print('This is the SPRING CONSTANT:',slope_m)
 print("Intercept:",intercept)
 
+#finding the equilibrium position of the spring, or the spring position when the force on it is zero.
 #Now need to figure out x at F=0
 #-c=kx
 x_0=intercept/(slope_m*-1)
