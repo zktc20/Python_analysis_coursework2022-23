@@ -5,6 +5,8 @@ from scipy.optimize import curve_fit
 
 first_df=(pd.read_csv('C:/Users/ztcpo/Desktop/LABORATORY/LATEXCOMP/latex2raw.csv'))
 
+#this code is from late 2022. upon reflection i know now that a more efficient way of coding this is to write a function instead with variable input rather than just copy pasting code.
+
 df_3=((first_df.iloc[range(0,3)]))
 df_5=((first_df.iloc[range(0,5)]))
 df_10=((first_df.iloc[range(0,10)]))
