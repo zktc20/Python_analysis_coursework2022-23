@@ -7,7 +7,7 @@ from scipy.optimize import curve_fit
 first_df=(pd.read_csv('C:/Users/ztcpo/Desktop/LABORATORY/LATEXCOMP/latex2raw.csv'))
 
 df=first_df.iloc[range(0,40)]
-
+#finding the spring constant of a spring from experimental data with associated error.
 
 #linear least fit square
 xval=df['Data Set 2: x/ m']*10**6
